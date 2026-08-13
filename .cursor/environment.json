@@ -1,0 +1,15 @@
+{
+  "name": "copilot-hack (flight delay predictor)",
+  "install": "bash .cursor/install.sh",
+  "terminals": [
+    {
+      "name": "Flask API",
+      "command": "cd possible-solution/server && .venv/bin/python app.py"
+    },
+    {
+      "name": "SvelteKit client",
+      "command": "cd possible-solution/client && npm run dev -- --host"
+    }
+  ],
+  "ports": [5000, 5173]
+}
